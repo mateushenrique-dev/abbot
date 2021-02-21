@@ -1,0 +1,35 @@
+.produtos{
+    margin-top: 80px;
+}
+
+.produto4, .produto5{
+    margin-top: 20px;
+    margin-bottom: 77px;
+}
+
+.title-produtos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #fff;
+    background: #000;
+    margin-top: -4px;
+}
+
+.marca{
+    margin-top: 60px;
+
+}
+
+.marcas::after{
+    content: "";
+    display: block;
+    background: #000;
+    width: 70px;
+    height: 3px;
+    margin: 330px auto;
+    margin-bottom: 30px;
+    clear: both;
+}

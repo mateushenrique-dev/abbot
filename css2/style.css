@@ -1,0 +1,321 @@
+/* Geral */
+
+.menu .branco{
+    color: #fff;
+}
+
+.menu .active::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #000;
+    margin: 3px auto;
+}
+
+.sub-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+   
+}
+
+.sub-titulo::after{
+    content: "";
+    display: block;
+    background: #000;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto;
+}
+
+.sub-subtitulo{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 30px;
+}
+
+.sub-subtitulo::after{
+    content: "";
+    display: block;
+    background: #000;
+    width: 70px;
+    height: 3px;
+    margin: 8px 0;
+    margin-bottom: 13px;
+}
+
+.sub-intro-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 90px;
+}
+
+.sub-intro-titulo::after{
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+
+.call{
+    text-align: center;
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.call p{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.btn{
+    border: 5px solid #000;
+    clear: both;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+}
+
+
+/*  Header */
+
+header{
+    width: 100%;
+    height: 519px;
+    background: url(../img/home/background.jpg) center;
+    background-size: cover;
+}
+
+
+/* Menu */
+
+.menu{
+    margin-top: 25px;
+    text-align: end;
+    text-decoration: none;
+    padding-right: 9px;
+}
+
+.menu li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.menu li a{
+    color: #000;
+}
+
+.menu li a:hover{
+    color: #707070;
+
+}
+
+/* Introdução */
+
+.introducao h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 70px;
+    padding-left: 9px;
+}
+
+.introducao p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 20px;
+    width: 520px;
+    height: 124px;
+    line-height: 20px;
+    padding-left: 9px;
+}
+
+/* Produtos */
+
+.produto-ini{
+    border: 1px #707070 solid;
+}
+
+.produto-ini img{
+    width: 200px;
+    height: 190px;
+    margin: 50px 20px 20px 40px;
+}
+
+.btn:hover{
+    border: 7px solid #000;
+    font-weight: bold;
+}
+
+.info-produto{
+    padding: 25px;
+    color: #fff;
+    height: 180px;
+    background: #000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Portfolio */
+
+.porti{
+    background: #000;
+}
+
+.portfolio-ini h2{
+    color: #fff;
+}
+
+.portfolio-ini h2::after{
+    background: #fff;
+}
+
+.portfolio-ini img:nth-child(3){
+    margin-top: 20px;
+}
+
+.portfolio-ini p{
+    color: #fff;
+}
+
+.portfolio-ini .btn{
+    border-color: #fff;
+    color: #fff;
+}
+
+
+.portfolio-ini .btn:hover{
+    border: 7px solid #fff;
+    font-weight: bold;
+}
+
+/* Quebra */
+
+.quebra{
+    width: 100%;
+    height: 260px;
+    background: url(../img/home/quebra.jpg) center;
+    background-size: cover;
+    color: #fff;
+}
+
+.quebra q{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.foot{
+    background: #000;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer .sub-subtitulo::after{
+    background: #fff;
+}
+
+.contato ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: italic;
+    
+}
+
+.rede-social{
+    margin-left: 450px;
+}
+
+.rede-social ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
+/* Copy */
+
+.copy{
+    height: 60px;
+    background: #fff;
+    color: #000;
+    padding: 20px 20px 20px 9px;
+}
+
+[data-slide] {
+    position: relative;
+  }
+  .js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 1000ms;
+    z-index: 1;
+    pointer-events: initial;
+  }
+
+  .js [data-slide-nav] {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .js [data-slide-nav]  button{
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin: 4px;
+        border: none;
+        padding: 0px;
+        border-radius: 6px;
+        text-indent: -99px;
+        overflow: hidden;
+        background: #1d1d1d;
+  }
+
+  .js [data-slide-nav] button.active{
+      background: #FEC63E;
+  }
+  
+  .js [data-anime] {
+    opacity: 0;
+  }
+  .js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 800ms, opacity 800ms;
+  }
+
+

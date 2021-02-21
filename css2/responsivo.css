@@ -1,0 +1,242 @@
+@media only screen and (max-width:788px){
+
+/* Menu */
+
+.menu-main{
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    padding-right: 9px;
+    text-transform: uppercase;
+    
+}
+
+.menu .branco{
+    color: #000;
+}
+
+.menu li{
+    margin-left: 0px;
+    border: 3px solid #000;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.menu li:nth-child(1){
+    margin-left: 6px;
+}
+
+.menu .active::after{
+    display: inline;
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    margin: 0px auto;
+}
+
+.menu-main .active::after{
+    display: inline;
+    width: 0px;
+    height: 0px;
+    background: #000;
+    margin: 0px auto;
+}
+
+
+/* Inicio Introdução */
+
+.introducao h1{
+    text-align: center;
+}
+
+.introducao p{
+    width: 320px;
+    text-align: center;
+}
+
+/* Produto Inicio */
+
+.produto-ini img{
+    width: 200px;
+    height: 190px;
+    padding-left: 25px;
+}
+
+/* Footer */
+
+.rede-social{
+    position: relative;
+    right:450px;
+}
+
+.quebra{
+    width: 100%;
+    height: 260px;
+
+    background: url(../img/home/quebra-mobile.jpg) center;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Sobre */
+
+.sub-intro-titulo{
+
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.sub-intro-titulo::after{
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+
+/* Produtos */
+
+.produto1 img, .produto2 img, .produto3 img, .produto4 img, .produto5 img{
+    width: 300px;
+}
+
+.produto{
+    margin-top: -80px;
+}
+
+.produto4, .produto5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.marcas::after{
+
+    margin: 40px auto;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+/* Portfólio */
+
+.fotos{
+    margin: 40px 0;
+    width: 1px;
+}
+
+.cabide1, .cabide2, .cabide3, .cabide4, .cabide5{
+    margin-top: 50px;
+}
+
+.foto3, .cabide3{
+    padding-left: 0px;
+}
+
+.foto2, .cabide2{
+    padding-left: 0px;
+}
+
+.foto1, .foto2, .foto3{
+    margin-top: 20px;
+}
+
+.portfolio p{
+    margin: 0 auto 40px auto;
+}
+
+/* Contato */
+
+.dados{
+    margin-top: 20px;
+    margin-right: 0px;
+    position: static;
+}
+
+.redes-sociais{
+    position: static;
+}
+
+.redes-sociais{
+    margin-top: 60px;
+}
+
+.redes-sociais img{
+    padding-right: 15px;
+}
+
+.mapa{
+    margin-top: 40px;
+}
+
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+    /* Home */
+    .produto-ini img{
+        margin-left: 20px;
+    }
+
+    .info-produto{
+        padding: 10px;
+    }
+
+    /* Footer */
+
+    .rede-social{
+        margin-left: 300px;
+    }
+    
+    .rede-social ul li{
+        padding-right: 10px;
+    }
+
+    /* Produtos */
+
+    .produtos{
+        margin-top: 80px;
+    }
+
+    .produto2 img{
+        width: 172px;
+    }
+
+    .produto1 img, .produto3 img{
+        width: 268px;
+    }
+
+    .produto4 img, .produto5 img{
+       width: 364px
+    }
+
+    /* Portfolio */
+
+    .fotos{
+        margin: 100px 0;
+        width: 260px;
+    }
+    
+    .foto3, .cabide3{
+        padding-left: 0px;
+        margin-top: -150px;
+        margin-left: 240px;
+    }
+    
+    .foto2, .cabide2{
+        padding-left: 220px;
+    }
+    
+    .foto1, .foto2, .foto3{
+        margin-top: 20px;
+    }
+
+    .portfolio p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 190px 40px 190px;
+        text-align: center;
+        color: #000;
+        clear: both;
+    }
+}

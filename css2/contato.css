@@ -1,0 +1,94 @@
+
+
+.trab-con{
+    margin-top: 60px;
+}
+
+.trab-con h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.trab-con p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.form input{
+    height: 35px;
+    background: #000;
+    color: #fff;
+}
+
+.form textarea{
+    background: #000;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.dados{
+    margin-top: 230px;
+    position: relative;
+    left: 80px;
+}
+
+.redes-sociais{
+    position: relative;
+    left: 80px;
+}
+
+.dados h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.dados ul li{
+    margin-top: 10px;
+}
+
+.dados ul li:nth-child(3){
+    margin-top: 30px;
+}
+
+.dados ul li:nth-child(4){
+    margin-bottom: 40px;
+}
+
+.redes-sociais h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+.redes-sociais{
+    margin-top: 40px;
+}
+
+.redes-sociais img{
+    padding-right: 15px;
+}
+
+.form .btn{
+    background: #fff;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.quebra{
+    margin-top: 60px;
+}

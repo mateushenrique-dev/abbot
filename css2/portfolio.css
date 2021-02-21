@@ -1,0 +1,27 @@
+
+
+.fotos{
+    margin: 70px 0;
+}
+
+.foto3, .cabide3{
+    padding-left: 75px;
+}
+
+.foto2, .cabide2{
+    padding-left: 35px;
+}
+
+.foto1, .foto2, .foto3{
+    margin-top: 50px;
+}
+
+.portfolio p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 250px 50px 250px;
+    text-align: center;
+    color: #000;
+    clear: both;
+}
